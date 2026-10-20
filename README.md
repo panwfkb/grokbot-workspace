@@ -12,3 +12,7 @@
 
 - `GROKBOT_WEBHOOK_URL`：云端调度例行任务里的 Webhook 地址
 - `GROKBOT_WEBHOOK_TOKEN`：发送密钥（Bearer 后面那串，不含 `Bearer `）
+
+## 工作流说明
+
+编码改动一律从分支提交，并通过 Pull Request 合并。不要直接推送到 `main`，也不要 force-push。合并前需畅确认。
